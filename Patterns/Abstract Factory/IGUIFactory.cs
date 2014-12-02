@@ -8,5 +8,11 @@ namespace Patterns.Abstract_Factory
 {
     public interface IGUIFactory
     {
+        IWindow CreateWindow();
+        IButton CreateButton();
+        ITextBox CreateTextbox();
     }
+    public interface IWindow { }
+    public interface IButton { }
+    public interface ITextBox { }
 }

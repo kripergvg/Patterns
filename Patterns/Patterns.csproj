@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract Factory\DefaultGUIFactory.cs" />
+    <Compile Include="Abstract Factory\GUI.cs" />
+    <Compile Include="Abstract Factory\GUIFactoryGeneric.cs" />
     <Compile Include="Abstract Factory\IGUIFactory.cs" />
+    <Compile Include="Abstract Factory\SkinnedGUIFactory.cs" />
     <Compile Include="Factory Method\Abstract method\Document.cs" />
     <Compile Include="Factory Method\Abstract method\DocumentManager.cs" />
     <Compile Include="Factory Method\Abstract method\GenericMethod\ProductManager.cs" />

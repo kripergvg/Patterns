@@ -8,7 +8,7 @@ namespace Patterns.Factory_Method
 {
     public interface IDocStorage
     {
-        void Save(string name,Document);
+        void Save(string name,Document document);
         Document Load(string name);
     }
 }

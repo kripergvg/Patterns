@@ -7,6 +7,7 @@ using Patterns.Factory_Method;
 using Patterns.Factory_Method.Generics;
 using Patterns.Factory_Method.Abstract_method.GenericMethod;
 using Patterns.Singleton;
+using Patterns.Abstract_Factory;
 
 namespace Patterns
 {
@@ -27,6 +28,16 @@ namespace Patterns
             Singleton.Singleton singleton = Singleton.Singleton.Instance;
 
             LazySingleton lazySingleton = LazySingleton.Instance;
+
+
+        }
+
+        public static string GetUserInput(IGUIFactory guiFactory)
+        {
+            IWindow wndInput = guiFactory.CreateWindow();
+            IButton btnOk = guiFactory.CreateButton();
+            ITextBox txtBx = guiFactory.CreateTextbox();
+            return "";
         }
     }
 }
