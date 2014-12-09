@@ -14,7 +14,7 @@ namespace Patterns
     class Program
     {
         static void Main(string[] args)
-        {
+        {ggg
             DocumentManager docManager = new TxtDocumentManager();
             docManager.Save(new Document());
 
