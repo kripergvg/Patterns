@@ -15,7 +15,7 @@ namespace Patterns
     class Program
     {
         static void Main(string[] args)
-        {
+        {gggdfgdfgdfg LALKA
             DocumentManager docManager = new TxtDocumentManager();
             docManager.Save(new Document());
 
