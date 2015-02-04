@@ -46,6 +46,9 @@
     <Compile Include="Abstract Factory\GUIFactoryGeneric.cs" />
     <Compile Include="Abstract Factory\IGUIFactory.cs" />
     <Compile Include="Abstract Factory\SkinnedGUIFactory.cs" />
+    <Compile Include="Composite\Component.cs" />
+    <Compile Include="Composite\Composite.cs" />
+    <Compile Include="Composite\Leaf.cs" />
     <Compile Include="Factory Method\Abstract method\Document.cs" />
     <Compile Include="Factory Method\Abstract method\DocumentManager.cs" />
     <Compile Include="Factory Method\Abstract method\GenericMethod\ProductManager.cs" />
